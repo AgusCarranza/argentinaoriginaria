@@ -82,6 +82,7 @@ h2 {
      background-color: rgba(157, 75, 16, 0.655);
      text-align: center;
      padding: 20px;
+     margin-bottom: 60px;
    }
    a{
      color: chocolate
@@ -170,8 +171,6 @@ h2 {
 }
 
 
-
-
  .banner1 {
     margin: 0 auto;
     justify-content: center;
@@ -250,7 +249,7 @@ h2 {
   background-size: cover;
 }
 
-/* Size of the container */
+/* Tamaño contenedor */
 
 .container {
   width: 100%;
@@ -260,7 +259,7 @@ h2 {
 }
 
 
-/* Grid of the gallery on desktop */
+/* Grid galería en desktop */
 
 .image-gallery {
   display: grid;
@@ -286,7 +285,7 @@ h2 {
   text-decoration: none;
 }
 
-/* Icon styles - you only can see icons when you hover on images */
+/* Iconos */
 
 
 .image-gallery a ion-icon {
@@ -302,7 +301,7 @@ h2 {
 }
 
 
-/* Another hover action ---- > background color */
+/* background color */
 
 .image-gallery a::before {
   content: '';
@@ -317,13 +316,13 @@ h2 {
 }
 
 
-/* Make the icon and the background visible when hovering */
+/* iconos y background visible con hovering */
 
 .image-gallery a:hover ion-icon, .image-gallery a:hover::before  {
   opacity: 1;
 }
 
-/* Media querys tablet --> medium size screens */
+/* Media querys tablet */
 
 @media screen and (max-width:900px) {
 
@@ -392,14 +391,6 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
  
  .artic {
   &__listado {
@@ -421,74 +412,7 @@ h2 {
    }
   }
 
- 
-//   #grid-container {
-//     display: grid;
-//     /*grid-template-columns: repeat(6, 1fr);*/
-//     grid-template-rows: repeat(6, 100px);
-//     gap: 10px;
-//   }
-  
-//   .grid-item {
-//     background-color: antiquewhite;
-//   }
-  
-//   .grid-item:nth-child(1) {
-//     background-color: burlywood;
-//     grid-column: 3/1;
-//     grid-row: 3/7;
-//   }
-  
-//   .grid-item:nth-child(2) {
-//     background-color: burlywood;
-//     grid-column: 1/3;
-//     grid-row: 1/3;
-//   }
-  
-//   .grid-item:nth-child(3) {
-    
-//     grid-column: 3/5;
-//     grid-row: 1/5;
-//   }
-  
-//   .grid-item:nth-child(4) {
-//     background-color: burlywood;
-//     grid-column: 7/5;
-//     grid-row: 7/1;
-//   }
-  
-//   .grid-item:nth-child(5) {
-//     background-color: antiquewhite;
-//     grid-column: 3/5;
-//     grid-row: 7/5;
-//   }
 
-  
-  .pad {
-    // padding: 10px 20px;
-    text-align: center;
-  }
-  
-  // .pad1 {
-  //   padding: 15px 55px;
-  // }
-  
-  // .pad2 {
-  //   padding: 5px 50px;
-  // }
-  
-  .pad3 {
-    // padding: 15px 30px;
-    text-align: center;
-  }
-  
-  .pad4 {
-    // padding: 5px 15px;
-    text-align: center;
-  }
-
- 
-  
   
   .iframe {
     text-align: center;
@@ -533,9 +457,22 @@ h2 {
      }
   }
 
+  .caps a {
+    color: brown;
+    font-weight: bold;
+  }
+
   .talleres {
     text-align: center;
+    padding: 20px;
+    margin-top: 60px;
   }
+
+  .talleres-mus {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
 
   .sabes {
     text-align: center;
@@ -598,6 +535,8 @@ h2 {
       flex-direction: column;
     }
   }
+
+  /*footer*/
  
   .footcol {
       background-color: black;
@@ -648,6 +587,7 @@ h2 {
     }
     &__caja {
       background-color: rgb(134, 65, 33);
+      color: antiquewhite;
       width: 100%;
       text-align: center;
     }
@@ -656,18 +596,9 @@ h2 {
     }
     }
 
-    /*@media (max-width: 360px){ 
-      .coment {
-        display: flex;
-        justify-content: left;
-        padding-right: auto;
-        margin: 50px;
-        width: 100%;
-      }
-      }*/
 
   .boton {
-    background-color: white;
+    background-color: antiquewhite;
     border: 4px solid rgb(134, 65, 33);
     color: rgb(134, 65, 33);
     padding: 10px 32px;
@@ -698,6 +629,7 @@ h2 {
         }
         &__caja {
           background-color: sienna;
+          color: antiquewhite;
         }
         &__nomb {
           width: 70px;
@@ -707,10 +639,12 @@ h2 {
 
     .com-box {
       width: 100%;
+      background-color: antiquewhite;
     }
 
     .coment__nomb {
       width: 100%;
+      background-color: antiquewhite;
     }
   
   /*Secciones*/
@@ -722,6 +656,7 @@ h2 {
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
+    margin: 60px 0px;
   }
   
   .flex-item1 {
@@ -750,5 +685,4 @@ h2 {
     }
   }
 
-  
   /*fin secciones*/
